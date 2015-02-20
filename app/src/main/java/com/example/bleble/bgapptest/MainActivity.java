@@ -11,12 +11,14 @@ import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
-
+    int k = 10000; //git commit
     public static boolean isService = false;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //sssss git commit
 
         Button startserviceButton = (Button) findViewById(R.id.button);
         startserviceButton.setOnClickListener(new View.OnClickListener() {
